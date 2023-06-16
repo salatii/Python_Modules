@@ -1,8 +1,8 @@
 from transformers import pipeline
 import sys
 
-arg1 = sys.argv[1]
-text = sys.argv[2]
+arg1 = sys.argv[1] #translation type
+text = sys.argv[2] #content for translation
 
 if arg1 == 'de-en':
     translator_DE_EN = pipeline("translation", model="Helsinki-NLP/opus-mt-de-en")

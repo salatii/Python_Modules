@@ -3,3 +3,4 @@ transformers==4.30.2
 sentencepiece==0.1.99
 feedparser==6.0.10
 keybert==0.7.0
+langdetect==1.0.9
